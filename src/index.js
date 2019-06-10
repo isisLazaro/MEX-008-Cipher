@@ -1,0 +1,1 @@
+//window.cipher.encode(3, "ABCD");
