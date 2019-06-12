@@ -1,17 +1,16 @@
 window.cipher = {
   encode : (offset, text) =>{
+    let encryptedChar = '';
+    let encryptedText = '';
     text = text.toUpperCase(); // converts the text to uppercase letters
-    // FALTA QUITAR CARACTERES ESPECIALES: ACENTOS, Ñ, SIMBOLOS
-    let encryptedChar = "";
-    let encryptedText = "";
-  
     for (let i = 0; i < text.length; i++) {
-        if (text[i] !== " ") { //anything but white space FALTA AGREGAR PARA ENTER O TAB 
-            encryptedChar = String.fromCharCode(((text.charCodeAt(i) - 65 + offset) % 26) + 65);
-        } else { // keep white space
-            encryptedChar = text[i];
-        }
-        encryptedText = encryptedText + encryptedChar; 
+      let charASCII = text.charCodeAt(i);
+      if (charASCII >= 65 && charASCII <= 90 ) { // any character between A-Z
+        encryptedChar = ((charASCII - 65 + offset) % 26) + 65;
+      } else {
+        encryptedChar = charASCII;
+      }
+      encryptedText = encryptedText + String.fromCharCode(encryptedChar); 
     }
     return encryptedText;
   }
