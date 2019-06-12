@@ -6,7 +6,7 @@ window.cipher = {
     let encryptedText = "";
   
     for (let i = 0; i < text.length; i++) {
-        if (text[i] !== " ") { //anything but white space
+        if (text[i] !== " ") { //anything but white space FALTA AGREGAR PARA ENTER O TAB 
             encryptedChar = String.fromCharCode(((text.charCodeAt(i) - 65 + offset) % 26) + 65);
         } else { // keep white space
             encryptedChar = text[i];
