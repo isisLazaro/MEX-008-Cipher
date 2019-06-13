@@ -7,7 +7,6 @@ let offsetText = document.getElementById("offset-text");
 spoilerArea.focus();
 
 form1.addEventListener("submit", event => {
-    //console.log(cipher.encode(1,spoilerArea.value));
     spoilerArea.value = cipher.encode(Number(offsetText.value),spoilerArea.value);
     event.preventDefault()
 });
