@@ -4,10 +4,27 @@
 La solución simple a estos problemas es escribir:
 
 :no_entry: :no_entry_sign: SPOILER ALERT :exclamation: :collision: :bomb: :
-        ....pero Spoiler Arlert: lo leen :disappointed_relieved:
+       
+        ....pero lo acaban leyendo :disappointed_relieved:
+
+        y enojándose contigo :rage:
+
+Con Bye Spoilers! Cifras tu spoiler en nuetra aplicación y lo pegas en tu publicación, así nadie podrá enterarse de su contenido involuntariamente. Si quieres leerlo, tienes que ingresar el spoiler cifrado en la aplicación, ¡y listo!, ya puedes leerlo.
 
 <img src = "images/memeDrake13.jpg" width = 400>
 
+## ¿Cómo funciona?
+### Cifrar spoiler
+1. Ingresa a [Bye Spoiler!](https://isislazaro.github.io/MEX-008-Cipher/src/)
+2. Escribe tu spoiler en el cuadro de texto
+3. Escoge tu clave para cifrar (recuerda escribirla en tu publicación para que tus lectores puedan decifrar el contenido)
+4. Click en el botón cifrar
+5. Copia y pega el spoiler cifrado donde lo quiera publicar.
+### Decifrar spoiler
+1. Pega el spoiler cifrado en el cuadro de texto
+2. Introduce la clave de cifrado
+3. Click en el botón decifrar
+4. Mensaje decifrado
 ## Definición de Producto
 Los principales usuarios de Bye Spoilers! son aquellas personas que les gusta comentar en línea sobre lo que sucedió en el último capítulo de su serie favorita, dar sus teorías del final de la última película que vieron, o comentar sobre la trama del libro que están leyendo, pero que saben que lo que escriben puede molestar y dañar la experiencia de otros que aún no han podido ponerse al día sobre lo que están hablando, por lo que quieren escribir libremente, sin preocuparse de ello.
 Bye Spoilers! resuelve este problema dándole al usuario una herramienta que le permite escribir spoilers cifrados, para que sólo las personas interesadas puedan leerlas. Y al lector curioso le da la oportunidad de decidir si lo quiere leer o no, decifrandolos mediante Bye Spoilers!.
