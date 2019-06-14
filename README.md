@@ -25,9 +25,9 @@ Con Bye Spoilers! Cifras tu spoiler en nuestra aplicación y lo pegas en tu publ
 2. Pega el spoiler cifrado en el cuadro de texto
 3. Introduce la clave de cifrado
 4. Click en el botón decifrar
-5. Mensaje decifrado
+5. Mensaje decifrado.
 ## Definición de Producto
-Los principales usuarios de Bye Spoilers! son aquellas personas que les gusta comentar en línea sobre lo que sucedió en el último capítulo de su serie favorita, dar sus teorías del final de la última película que vieron, o comentar sobre la trama del libro que están leyendo, pero que saben que lo que escriben puede molestar y dañar la experiencia de otros que aún no han podido ponerse al día sobre lo que están hablando, por lo que quieren escribir libremente, sin preocuparse de ello.
+Los principales usuarios de Bye Spoilers! son aquellas personas que les gusta comentar en línea sobre lo que sucedió en el último capítulo de su serie favorita, dar sus teorías del final de la última película que vieron, o comentar sobre la trama del libro que están leyendo, pero saben que lo que escriben puede molestar y dañar la experiencia de otros que aún no han podido ponerse al día sobre lo que están hablando, por lo que quieren escribir libremente, sin preocuparse de ello.
 
 Bye Spoilers! resuelve este problema dándole al usuario una herramienta que le permite escribir spoilers cifrados, para que sólo las personas interesadas puedan leerlas. Y al lector curioso le da la oportunidad de decidir si lo quiere leer o no, decifrandolos mediante Bye Spoilers!.
 
@@ -87,7 +87,7 @@ Definir el producto a trabajar, y programar una interfaz de usuario funcional, q
 ### Sprint 2
 #### Objetivo Sprint 2
 #### Sprint 2 Backlog
-1. Interfaz de 
+1. Interfaz de usuario
   - programar fórmula decifrado
   - Insertar un mensaje (texto) a descifrar
   - Ver el resultado del mensaje descifrado
@@ -102,6 +102,11 @@ Sketch en papel
 
 <img src = "images/_v1.jpg" width = 500>
 
-En la versión web se busca una interfaz de usuario simple, fácil de entender para quien accede la primera vez y no tan saturada de infomación para el usuario cotidiano; que contenga toda la información y las herramientas necesarias para realizar el cifrado en una sola pantalla. Se accederá a la parte de decifrado haciendo click en la pestaña correspondiente, e igualmente las instrucciones y herramientas estarán en una sola pantalla. El usuario tendrá que introducir el texto y el offset obligatoriamente para poder cifrar/decifrar la información. También se limitara a que el dato que introduzca como offset sea un número entero mayor que cero.
+Descripción: 
+
+En la versión web se busca una interfaz de usuario simple, fácil de entender para quien accede por primera vez, pero no tan saturada de infomación para el usuario cotidiano; que contenga toda la información y las herramientas necesarias para realizar el cifrado en una sola pantalla. Se accederá a la parte de decifrado haciendo click en la pestaña correspondiente, e igualmente las instrucciones y herramientas estarán en una sola pantalla. 
+
+El usuario tendrá que introducir el texto y el offset obligatoriamente para poder cifrar/decifrar la información. También se limitara a que el dato que introduzca como offset sea un número entero mayor que cero.
 
 ## Referencias
+[README original](READMEoriginal.md)
