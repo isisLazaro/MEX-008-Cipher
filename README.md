@@ -1,17 +1,28 @@
 # Bye Spoilers!
+¿Cuántas veces has querido comentar en twitter lo que pasó en el último capítulo de tu serie favorita, pero te has detenido para no te reclamen los que aún no lo han visto?, o ¿no has querido expresar en línea tu frustración sobre el final de la película que viste, pero sabes que si lo haces revelarías casi toda la trama?
+
+La solución simple a estos problemas es escribir:
+
+:no_entry: :no_entry_sign: SPOILER ALERT :exclamation: :collision: :bomb: :
+        ....pero Spoiler Arlert: lo leen :disappointed_relieved:
+
 <img src = "images/memeDrake13.jpg" width = 400>
 
+## Definición de Producto
+Los principales usuarios de Bye Spoilers! son aquellas personas que les gusta comentar en línea sobre lo que sucedió en el último capítulo de su serie favorita, dar sus teorías del final de la última película que vieron, o comentar sobre la trama del libro que están leyendo, pero que saben que lo que escriben puede molestar y dañar la experiencia de otros que aún no han podido ponerse al día sobre lo que están hablando, por lo que quieren escribir libremente, sin preocuparse de ello.
+Bye Spoilers! resuelve este problema dándole al usuario una herramienta que le permite escribir spoilers cifrados, para que sólo las personas interesadas puedan leerlas. Y al lector curioso le da la oportunidad de decidir si lo quiere leer o no, decifrandolos mediante Bye Spoilers!.
+
 ## Marco de trabajo
-Aplicación web para que el usuario pueda cifrar y descifrar un texto indicando un desplazamiento específico de caracteres (offset) utilizando un alfabeto simple.
+Aplicación web para que el usuario pueda cifrar y descifrar un texto, indicando un desplazamiento específico de caracteres (offset) utilizando un alfabeto simple.
 ### Product Backlog
 1. Definición del producto
   - Quiénes son los principales usuarios de producto
   - Cuáles son los objetivos de estos usuarios en relación con tu producto.
   - Cómo crees que el producto que estás creando está resolviendo sus problemas.
 2. Interfaz de usuario
-  - Elegir un desplazamiento (offset), indicando cuántas posiciones queremos que el cifrado desplace cada carácter
-  - Insertar un mensaje (texto) que queremos cifrar
-  - Ver el resultado del mensaje cifrado
+  - Elegir un desplazamiento (offset), indicando cuántas posiciones queremos que el cifrado desplace cada carácter :heavy_check_mark:
+  - Insertar un mensaje (texto) que queremos cifrar :heavy_check_mark:
+  - Ver el resultado del mensaje cifrado :heavy_check_mark:
   - Insertar un mensaje (texto) a descifrar
   - Ver el resultado del mensaje descifrado
 3. Hacker edition
