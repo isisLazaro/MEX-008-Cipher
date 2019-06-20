@@ -1,5 +1,5 @@
 # Bye Spoilers!
-¿Cuántas veces has querido comentar en twitter lo que pasó en el último capítulo de tu serie favorita, pero te has detenido para no te reclamen los que aún no lo han visto?, o ¿no has querido expresar en línea tu frustración sobre el final de la película que viste, pero sabes que si lo haces revelarías casi toda la trama?
+¿Cuántas veces has querido comentar en twitter lo que pasó en el último capítulo de tu serie favorita, pero te has detenido para que no te reclamen los que aún no lo han visto?, o ¿no has querido expresar en línea tu frustración sobre el final de la película que viste, pero sabes que si lo haces revelarías casi toda la trama?
 
 La solución simple a estos problemas es escribir:
 

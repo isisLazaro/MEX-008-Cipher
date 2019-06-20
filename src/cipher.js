@@ -1,17 +1,41 @@
 window.cipher = {
-  encode : (offset, text) =>{
+  encode : (offset, str) => {
     let encryptedChar = '';
-    let encryptedText = '';
-    text = text.toUpperCase(); // converts the text to uppercase letters
-    for (let i = 0; i < text.length; i++) {
-      let charASCII = text.charCodeAt(i);
+    let encryptedStr = '';
+    let charASCII;
+    for (let i = 0; i < str.length; i++) {
+      charASCII = str.charCodeAt(i);
       if (charASCII >= 65 && charASCII <= 90 ) { // any character between A-Z
         encryptedChar = ((charASCII - 65 + offset) % 26) + 65;
-      } else {
+      } 
+      else if (charASCII >= 97 && charASCII <= 122 ) { // any character between a-z
+        encryptedChar = ((charASCII - 97 + offset) % 26) + 97;
+      } 
+      else {
         encryptedChar = charASCII;
       }
-      encryptedText = encryptedText + String.fromCharCode(encryptedChar); 
+      encryptedStr = encryptedStr + String.fromCharCode(encryptedChar); 
     }
-    return encryptedText;
+    return encryptedStr;
+  },
+
+  decode : (offset, str) => {
+    let decryptedChar = '';
+    let decryptedStr = '';
+    let charASCII;
+    for (let i = 0; i < str.length; i++) {
+      charASCII = str.charCodeAt(i);
+      if (charASCII >= 65 && charASCII <= 90 ) { // any character between A-Z
+        decryptedChar = ((charASCII + 65 - offset) % 26) + 65;
+      }
+      else if (charASCII >= 97 && charASCII <= 122 ) { // any character between a-z
+        decryptedChar = ((charASCII + 97 - offset) % 26) + 97;
+      }
+      else {
+        decryptedChar = charASCII;
+      }
+      decryptedStr = decryptedStr + String.fromCharCode(decryptedChar); 
+    }
+    return decryptedStr;
   }
 };
