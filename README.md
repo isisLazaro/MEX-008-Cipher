@@ -88,11 +88,20 @@ Definir el producto a trabajar, y programar una interfaz de usuario funcional, q
 #### Objetivo Sprint 2
 #### Sprint 2 Backlog
 1. Interfaz de usuario
-  - programar fórmula decifrado
-  - Insertar un mensaje (texto) a descifrar
-  - Ver el resultado del mensaje descifrado
-2. Mejorar integración del diseño
+  - programar fórmula decifrado :heavy_check_mark:
+  - Insertar un mensaje (texto) a descifrar :heavy_check_mark:
+  - Ver el resultado del mensaje descifrado :heavy_check_mark:
+2. Mejorar integración del diseño :heavy_check_mark:
 3. Hacker edition
+  - Minúsculas
+    - cifra :heavy_check_mark:
+    - descifra 
+  - Cifra/descifra otros caracteres (espacios, puntuación, ñ, á, ...) :heavy_check_mark:
+
+  <img src = "images/capturaTests.PNG" width = 500>
+
+    - Permite usar un offset negativo.
+    - Modelo de negocio.
 ## Diseño UX
 ### Descubrimiento e investigación
 ### Síntesis y definición
