@@ -4,20 +4,38 @@
 
   <head>
     <meta charset="UTF-8">
-    <title>TABS RB</title>
+    <title>ByeSpoilers!</title>
     <link href="https://fonts.googleapis.com/css?family=Courgette|Roboto|Sirin+Stencil&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
 
-    <header><h1>Bye Spoilers!</h1></header>
+    <header>
+      <h1>Bye Spoilers!</h1>
+      <!-- <img src="images/Emojione_1F44B.svg" width="6%"/> -->
+    </header>
 
     <section id="main-container">
 
-      <article id = "intro">
-          <p>code code code!</p>
-      </article>
+      <aside id = "intro">
+          <p>Con Bye Spoilers! cifra tu spoiler y pégalo en tu publicación, 
+            así nadie podrá enterarse de su contenido involuntariamente.</p><br/>
+          <ol>
+            <li>Escribe tu spoiler en el cuadro de texto</li>
+            <li>Escoge tu clave para cifrar (recuerda escribirla en tu publicación para que tus lectores puedan decifrar el contenido)</li>
+            <li>Click en el botón cifrar</li>
+            <li>Copia y pega el spoiler cifrado donde lo quieras publicar.</li>
+          </ol><br/><br/>
+          <p>Si quieres leer un spoiler cifrado, pégalo, ¡y listo!, ya 
+            puedes leerlo.</p><br/>
+          <ol> 
+            <li>Pega el spoiler cifrado en el cuadro de texto</li>
+            <li>Introduce la clave de cifrado</li>
+            <li>Click en el botón decifrar</li>
+            <li>Mensaje decifrado. ¡Ya puedes leerlo!</li>
+          </ol>
+      </aside>
               
       <main>
         <input type ="radio" name = "tabs" id = "tab1" class="rbDisplay" autocomplete="off" checked>
@@ -25,17 +43,17 @@
         <input type ="radio" name = "tabs" id = "tab2" class="rbDisplay" autocomplete="off">
         <label for ="tab2" class = "tabRB">Decifrar</label>
 
-        <form id= "form-1">
+        <form id = "form-1">
             <!-- placeholder = "Escribe aquí tu spoiler" -->
             <textarea id = "spoiler-area" required autocomplete="off"></textarea>
             <!-- <p>ROT: <input type ="number" id = "offset-text" required value = "13" min = "0" max = "100"></p>
             <p><input type="submit" value = "cifrar" id="encode-button"></p> -->
             <label for = "offset-text">ROT: </label>
             <input type ="number" id = "offset-text" required value = "13" min = "0" max = "100" autocomplete="off"/>
-            <input type="submit" value = "cifrar" id="encode-button"></p>
+            <input type="submit" value = "cifrar" id="encode-button">
         </form>
 
-        <form id= "form-2">
+        <form id = "form-2">
             <textarea id = "spoiler-area-2" required autocomplete="off"></textarea>
             <label for = "offset-text-2">ROT: </label>
             <input type ="number" id = "offset-text-2" required value = "13" min = "0" max = "100" autocomplete="off"> 
@@ -45,6 +63,8 @@
       </main>
 
   </section>
+
+  <footer><a href="https://github.com/isisLazaro/MEX-008-Cipher">about</a></footer>
 
   <script src="cipher.js"></script> 
    <script src="index.js"></script>
