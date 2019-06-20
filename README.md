@@ -108,5 +108,9 @@ En la versión web se busca una interfaz de usuario simple, fácil de entender p
 
 El usuario tendrá que introducir el texto y el offset obligatoriamente para poder cifrar/decifrar la información. También se limitara a que el dato que introduzca como offset sea un número entero mayor que cero.
 
+Versión final de la interfaz de usuario:
+
+<img src = "images/Screenshot_2019-06-20ByeSpoilers.png" width = 500>
+
 ## Referencias
 [README original](READMEoriginal.md)

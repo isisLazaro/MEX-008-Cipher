@@ -46,18 +46,21 @@
         <form id = "form-1">
             <!-- placeholder = "Escribe aquí tu spoiler" -->
             <textarea id = "spoiler-area" required autocomplete="off"></textarea>
-            <!-- <p>ROT: <input type ="number" id = "offset-text" required value = "13" min = "0" max = "100"></p>
-            <p><input type="submit" value = "cifrar" id="encode-button"></p> -->
-            <label for = "offset-text">ROT: </label>
-            <input type ="number" id = "offset-text" required value = "13" min = "0" max = "100" autocomplete="off"/>
-            <input type="submit" value = "cifrar" id="encode-button">
+            <p class = "controles-form">
+              <label for = "offset-text" class="lab-offset">ROT: </label>
+              <input type ="number" id = "offset-text" required value = "13" min = "0" max = "100" autocomplete="off"/>
+            </p>
+            <p class = "controles-form"><input type="submit" value = "cifrar" id="encode-button"></p>
+            
         </form>
 
         <form id = "form-2">
             <textarea id = "spoiler-area-2" required autocomplete="off"></textarea>
-            <label for = "offset-text-2">ROT: </label>
-            <input type ="number" id = "offset-text-2" required value = "13" min = "0" max = "100" autocomplete="off"> 
-            <input type="submit" value = "decifrar" id="decode-button">
+            <p class = "controles-form">
+              <label for = "offset-text-2" class="lab-offset">ROT: </label>
+              <input type ="number" id = "offset-text-2" required value = "13" min = "0" max = "100" autocomplete="off"> 
+            </p>
+            <p class = "controles-form"><input type="submit" value = "decifrar" id="decode-button"></p>
         </form>
 
       </main>
