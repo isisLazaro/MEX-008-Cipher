@@ -29,7 +29,7 @@ window.cipher = {
         decryptedChar = ((charASCII + 65 - offset) % 26) + 65;
       }
       else if (charASCII >= 97 && charASCII <= 122 ) { // any character between a-z
-        decryptedChar = ((charASCII + 122 - offset) % 26) + 122;
+        decryptedChar = ((charASCII - 122 - offset) % 26) + 122;
       }
       else {
         decryptedChar = charASCII;
